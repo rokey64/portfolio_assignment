@@ -1,5 +1,6 @@
 body{
     font-family: 'Lato', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -8,8 +9,16 @@ h1 .color{
     font-family: 'Roboto Mono', monospace;
     color: #a702ba;
 }
+.color{
+    color: #a702ba;
+}
+p{
+    font-size: 20px;
+    line-height: 1.5em;
+}
 .top-area{
     display: flex;
+    margin-bottom: 100px;
 }
 #top_area{
     background-image: url(images/top-area.png);
@@ -21,7 +30,7 @@ h1 .color{
     padding-left: 5%;
 }
 .half-area img{
-    margin-top: 100px;
+    margin-top: 115px;
     width: 100%;
 }
 .button{
@@ -31,24 +40,100 @@ h1 .color{
     text-decoration: none;
     color: white;
     padding: 10px 40px;
-    background-image: linear-gradient(#ff9118,#e21bf8);
+    background-image: linear-gradient(#9301B9,#EC05BE);
     font-weight:800;
     border-radius: 5px;
 }
 .btn:hover{
-    background-image: linear-gradient(#e21bf8,#ff9118);
+    background-image: linear-gradient(#EC05BE,#9301B9);
     transition: 0.5s;
 }
 .btn-2{
     text-decoration: none;
     color: white;
     padding: 10px 40px;
-    background-image: linear-gradient(#ff9118,#e21bf8);
+    background-image: linear-gradient(#9301B9,#EC05BE);
     font-weight:800;
     border-radius: 5px;
     margin-left: 20px;
 }
 .btn-2:hover{
-    background-image: linear-gradient(#e21bf8,#ff9118);
+    background-image: linear-gradient(#EC05BE,#9301B9);
     transition: 0.5s;
+}
+.button{
+    margin-top: 30px;
+}
+.goal{
+    display: flex;
+    background-image: url(images/goal-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    margin-bottom: 100px;
+}
+
+.skill{
+    margin-bottom: 100px;
+    background-image: url(images/skill-bg.png);
+    background-repeat: no-repeat;
+}
+.skill-title{
+    text-align: center;
+}
+#skill-area{
+    display: flex;
+}
+.star{
+    width: 20px;
+    margin-left: 20px;
+}
+td{
+    font-size: 30px;
+}
+table{
+    margin-top: 100px;
+}
+.skill-image{
+    width: 70%;
+}
+.skill-image img{
+    width: 100%;
+}
+.flexiable{
+    display: flex;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 100px;
+}
+.exp-title{
+    margin-left: 5%;
+}
+
+.expeience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+}
+#exp-item-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+    padding-bottom: 30px;
+
+}
+#exp-item-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    padding-bottom: 30px;
+}
+footer p{
+    text-align: center;
 }

@@ -1,0 +1,54 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h1 .color{
+    font-family: 'Roboto Mono', monospace;
+    color: #a702ba;
+}
+.top-area{
+    display: flex;
+}
+#top_area{
+    background-image: url(images/top-area.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+.half-area{
+    width: 45%;
+    padding-left: 5%;
+}
+.half-area img{
+    margin-top: 100px;
+    width: 100%;
+}
+.button{
+    margin-top: 30px;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    background-image: linear-gradient(#ff9118,#e21bf8);
+    font-weight:800;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-image: linear-gradient(#e21bf8,#ff9118);
+    transition: 0.5s;
+}
+.btn-2{
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    background-image: linear-gradient(#ff9118,#e21bf8);
+    font-weight:800;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.btn-2:hover{
+    background-image: linear-gradient(#e21bf8,#ff9118);
+    transition: 0.5s;
+}

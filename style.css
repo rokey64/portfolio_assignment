@@ -78,6 +78,13 @@ p{
     background-image: url(images/skill-bg.png);
     background-repeat: no-repeat;
 }
+.shopify-skill{
+    padding-bottom: 100px;
+}
+.shopify-service{
+    font-size: 20px;
+    line-height: 1.5em;
+}
 .skill-title{
     text-align: center;
 }
@@ -126,6 +133,7 @@ table{
     border-image: linear-gradient(orange, tomato);
     border-image-slice: 1;
     padding-bottom: 30px;
+    margin-top: 50px;
 
 }
 #exp-item-2{
@@ -133,6 +141,7 @@ table{
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
     padding-bottom: 30px;
+    margin-top: 50px;
 }
 footer p{
     text-align: center;
